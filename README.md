@@ -26,7 +26,7 @@ Statistics from running FindLargestValuesTestPerf
 3 000 000 iters with FindLargestValuesImpl took 2182 ms
 ```
 
-Look that FindLargestValuesImpl involve 127% more CPU instructions than FindLargestValuesImpl7 but better utilize instruction per cycle with 2,45 instead of 1,75 (counter by Linux performance counters).
+Look that FindLargestValuesImpl involve 127% more CPU instructions than FindLargestValuesImpl7 but better utilizes instructions per cycle with 2,45 instead of 1,75 (counted by Linux performance counters).
 
 ```
 10 000 000 iters with kodstark.ex.lgvalues.FindLargestValuesImpl@523e59ca took 5593 ms
